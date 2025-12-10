@@ -1,1 +1,24 @@
+# Basic
 venv/
+.env
+.venv/
+**/__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# Generated data & persistent DB
+chunks/
+data/
+vectordb/
+*.sqlite3
+*.db
+
+# Large artifacts (PDF/text caches, embeddings)
+*.npy
+*.npz
+*.pkl
+
+# Logs and temp
+*.log
+tmp/
